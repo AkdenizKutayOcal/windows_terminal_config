@@ -9,3 +9,10 @@ Set-Theme Paradox
 
 Get the font from:
 https://github.com/microsoft/cascadia-code/releases
+
+If there is a problem with VS Code(unrendered rectangles):
+Set Power Shell default terminal
+press Ctrl + Shift + P and type Open Settings JSON and add these:
+"terminal.integrated.fontFamily": "Cascadia Code PL",
+"terminal.integrated.rendererType": "dom",
+"terminal.integrated.shellArgs.windows": ["-NoLogo"],
